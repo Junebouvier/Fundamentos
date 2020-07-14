@@ -26,10 +26,6 @@ namespace Desafío_02_triáng
 
             Console.WriteLine("El valor de z es: " + Math.Round(z));
 
-
-
-
-
         }
     }
 }
