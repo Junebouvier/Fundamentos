@@ -18,8 +18,6 @@ namespace Fórmula_cuadrática
 
             double discrim = ((b * b) - 4 * a * c);
             
-            
-
             if (discrim == 0)
             {
                 double discrimCero = -b / (a * 2);
@@ -39,7 +37,6 @@ namespace Fórmula_cuadrática
                 Console.WriteLine("No hay una posible solución.");
             }
 
-
-        }
+       }
     }
 }
