@@ -28,8 +28,7 @@ namespace Ejercicio_2._3_alt
             double angRest = 90 + c;
             double a = 180 - angRest;
             Console.WriteLine("El valor de a es: " + a);
-
-            
+   
         }
     }
 }
