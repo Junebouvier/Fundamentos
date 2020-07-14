@@ -38,10 +38,6 @@ namespace Cálculo_de_IMC
 
             }
 
-
-
-
-
         }
     }
 }
