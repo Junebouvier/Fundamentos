@@ -6,7 +6,7 @@ namespace Conversión_binario_a_decimal
     {
         static void Main(string[] args)
         {
-            //Ingresamos los 5 dígitos en binario (1s o 0s)
+            //Ingresamos los 5 dígitos en binario (unos o ceros)
 
            Console.WriteLine("Digite el primer dígito: ");
             int b0 = int.Parse(Console.ReadLine());
