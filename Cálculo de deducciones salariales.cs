@@ -13,7 +13,7 @@ namespace Cálculo_de_deducciones_salariales
             Console.WriteLine("Ingrese su tipo de contrato (escriba 1 si es dependiente, 2 si es independiente): ");
             int tipCon = int.Parse(Console.ReadLine());
 
-            int smmlvx = 877803;
+            int smmlv = 877803;
 
 
             if (tipCon == 1)
