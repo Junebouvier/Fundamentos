@@ -168,7 +168,6 @@ namespace Cálculo_de_deducciones_salariales
                         double salAnual = salReal * 12;
                         Console.WriteLine("Sus ingresos anuales son: " + salAnual);
                     }
-
                 }
 
                 if (riesg == 4)
@@ -241,10 +240,6 @@ namespace Cálculo_de_deducciones_salariales
                     }
 
                 }
-
-
-
-
 
             }
         }
