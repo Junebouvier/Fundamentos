@@ -24,11 +24,8 @@ namespace Operadores_y_elecciones
             Console.WriteLine("Ingresa  el porcentaje (de 0 a 100%) de la población que es mayor de edad: ");
             double p = double.Parse(Console.ReadLine());
 
-
-
             int abs = (int)(n * p/100) - (a + b + blancos + anulados);
             int numVot = a + b + blancos + anulados;
-
 
             bool cond1 = anulados < (a + b) * 0.3;
             bool cond2 = (a + b) > blancos;
@@ -53,7 +50,6 @@ namespace Operadores_y_elecciones
                 Console.WriteLine("Las elecciones deben ser realizadas nuevamente");
             }
 
-            
         }
     }
 }
