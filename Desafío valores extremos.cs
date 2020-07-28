@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Codigos_2
+namespace Desafío_valores_extremos
 {
     class Program
     {
@@ -45,8 +45,8 @@ namespace Codigos_2
             }
             double promedio = total / n;
             Console.WriteLine("Promedio: " + promedio);
-            Console.WriteLine("El mayor es " + maxname + " con la edad de" + max + " años");
-            Console.WriteLine("El menor es " + minname + " con la edad de" + min + " años");
+            Console.WriteLine("El mayor es " + maxname + " con la edad de " + max + " años");
+            Console.WriteLine("El menor es " + minname + " con la edad de " + min + " años");
         }
     }
 }
