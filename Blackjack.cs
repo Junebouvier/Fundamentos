@@ -55,7 +55,6 @@ namespace Blackjack
                     continuar = "n";
                    
                 }
-                
             }
 
             Console.WriteLine("Su total final fue: " + sumCarta);
