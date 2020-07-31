@@ -17,7 +17,7 @@ namespace Blackjack
             Console.WriteLine("Su 1ra carta tiene el valor de " + carta1);
             Console.WriteLine("Su 2da carta tiene el valor de " + carta2);
             Console.WriteLine("Su total es de " + sumCarta);
-            Console.WriteLine("¿Desea continuar (pedir una carta adicional)? (s/n): " + continuar);
+            Console.WriteLine("¿Desea continuar (pedir una carta adicional)? (s/n): ");
             continuar = (Console.ReadLine());
 
             while (continuar == "s")
