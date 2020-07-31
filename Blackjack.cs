@@ -30,8 +30,7 @@ namespace Blackjack
                     sumCarta += cartaAdc;
                     Console.WriteLine("Su nueva carta tiene el valor de " + cartaAdc);
                     Console.WriteLine("Su nuevo total es de " + sumCarta);
-                    continuar = "";
-                    Console.WriteLine("¿Desea continuar? (s/n): " + continuar);
+                    Console.WriteLine("¿Desea continuar? (s/n): ");
                     continuar = (Console.ReadLine());
                     
                 }
