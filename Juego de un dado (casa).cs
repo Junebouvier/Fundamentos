@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
+using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Xml.Schema;
 
@@ -24,7 +24,7 @@ namespace Juego_de_dados
 
                 if (i < 4)
                 {
-                    if (dadoAnte == 10 && dado == 12)
+                    if (dadoAnte == 12 && dado == 10)
                     {
                         Console.WriteLine("Felicitaciones, ha ganado el juego");
                         break;
@@ -59,8 +59,7 @@ namespace Juego_de_dados
                     }
 
                 }
-
-            }
+             }
 
             Console.WriteLine("Su total fue: " + total + " puntos. Gracias por participar.");
         }
