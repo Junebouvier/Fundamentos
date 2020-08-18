@@ -25,7 +25,5 @@ namespace Euler
             Console.WriteLine("El resultado es: " + resultado);
         }
 
-        
-
     }
 }
