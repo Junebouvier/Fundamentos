@@ -24,9 +24,7 @@ namespace Matrices_X_y_O
                     salida[i, j] = "-";
                 }
             }
-
             
-
             //Visualización entrada
             Console.WriteLine("Entrada: ");
             for (int i = 0; i < tablero.GetLength(0); i++)
